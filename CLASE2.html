@@ -33,6 +33,7 @@
             display: grid;
             grid-template-rows: auto 1fr;
             width: 300px;
+            justify-items: center;
         }
         .logo {
             width: 150px;
@@ -61,9 +62,20 @@
             display: flex;
             justify-content: center;            
             align-items: center;
+            margin-bottom: 24px;
         }
         .email-image img {
             width: 80px;
+        }
+        .resend {
+            font-size: var(--sm);
+        }
+        .resend span {
+            color: var(--very-light-pink);
+        }
+        .resend a {
+            color: var(--hospital-green);
+            text-decoration: none;
         }
 
         .primary-button {
